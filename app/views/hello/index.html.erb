@@ -1,0 +1,32 @@
+<h1>Hello#index</h1>
+<p>Find me in app/views/hello/index.html.erb</p>
+<!-- ボタンを追加 -->
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<br><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+          <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1"/>
+          <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker1').datetimepicker();
+        });
+    </script>
+  </div>
+</div>
