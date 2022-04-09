@@ -8,7 +8,7 @@
     "@rails/webpacker": "4.2.2",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "popper.js": "^1.16.0",
     "tempusdominus-bootstrap-4": "^5.1.2",
     "turbolinks": "^5.2.0"
